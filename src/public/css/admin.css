@@ -1,0 +1,141 @@
+.header {
+
+    background: white;
+    height: 80px;
+
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    text-align: center;
+}
+
+.header__logo {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+    padding-left: 100px;
+    color: #CD853F;
+}
+
+
+.header__btn--right {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Playfair Display', serif;
+    border: solid 2px #FAF0E6;
+    padding: 5px 20px;
+    background: #F5F5F5;
+    text-decoration: none;
+    color: #FFDEAD;
+}
+
+.admin-form__content {
+    background: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.admin-form__heading {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #CD853F;
+}
+
+.form__group-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form {
+    margin: 0 auto;
+    width: 70vw;
+    height: 50px;
+    text-align: center;
+    background: white;
+    padding: 5px;
+}
+
+
+
+.form-serchbox {
+    display: flex;
+    border: 2px solid lightgrey;
+    width: 350px;
+    height: 30px;
+}
+
+.form-input__serch {
+    border: none;
+    width: 100%;
+}
+
+.form__button {
+    background-color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.select-gender {
+    height: 30px;
+    width: 100px;
+    border: 2px solid lightgrey;
+}
+
+.select-kind {
+    height: 30px;
+    width: 200px;
+    border: 2px solid lightgrey;
+}
+
+.form-input__date {
+    height: 30px;
+    width: 200px;
+    border: 2px solid lightgrey;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+
+
+
+
+
+.admin-table__inner {
+
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    width: 70vw;
+
+}
+
+.admin-table__item {
+    text-align: left;
+    padding: 10px 20px;
+}
+
+
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,158 @@
+.header {
+
+    background: white;
+    height: 80px;
+
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    text-align: center;
+}
+
+.header__logo {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+    /* padding-left: 100px;ここだけズレた */
+    color: #CD853F;
+}
+
+
+.contact-form__content {
+    background: white;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.contact-form__heading {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #CD853F;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--item {
+    color: brown;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: red;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__group-content {
+    background: white;
+    display: flex;
+    text-align: left;
+    width: 50vw;
+    color: gray;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 50vw;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: left;
+    appearance: none;
+
+
+}
+
+.form__input--name {
+
+    width: 50vw;
+    border-color: #ddd;
+    text-align: left;
+    appearance: none;
+
+}
+
+.input-family-name {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 24vw;
+    padding: 5px 10px;
+    height: 30px;
+    margin-right: 2vw;
+
+}
+
+.input-first-name {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 24vw;
+    padding: 5px 10px;
+    height: 30px;
+
+
+}
+
+.input-telbox {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 14vw;
+    padding: 10px;
+}
+
+.tel-haihun {
+    margin: 0vw 1.8vw;
+}
+
+.select-kind {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: grey;
+    padding: 10px;
+    width: 25vw;
+}
+
+.form__input--text input {
+    height: 10px;
+}
+
+.form__input--textarea textarea {
+    height: 50px;
+    padding: 10px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
